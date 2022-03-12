@@ -1,0 +1,29 @@
+<style>
+	body{padding-top: 150px;}
+	th{float: left;}
+	label{font-size: 15px;height: 223px;color: grey;}
+	input{width: 260px;height:30px;border-radius: 5px;border-color: inherit;}
+	a{text-decoration: none;color: dodgerblue;}
+	.a{text-decoration: none;float: right;color: dodgerblue}
+	h4{color: grey}
+	.b{color: white;background-color: dodgerblue;}
+</style>
+<body>
+<center>
+<h1>Sign In</h1><br>
+<h4>Don't have an account? <a href="SignUp.htm" >Sign Up</a>
+<form action="save_signin.php" method="post"><br><br>
+	<table>
+	<tr><th><label>Email</label></th></tr>
+	<tr><td><input type="Email" placeholder="your_email@gmail.com" name="email"></td></tr>
+	<tr><td>&nbsp&nbsp&nbsp</td></tr>
+	<tr><th><label>Password</label></th></tr>
+	<tr><td><input type="Password" placeholder="your_password" name="password" minlength="6" maxlength="12"></td></tr>
+	<tr><td><a class="a" href="#" name="forgot_password">forgot password?</a></td></tr>
+	<tr><td>&nbsp&nbsp&nbsp</td></tr>
+	<tr><td><input class="b" type="submit" value="Sign In">
+    </table>
+</form>
+</center>
+</body>
+
